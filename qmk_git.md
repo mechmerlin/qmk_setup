@@ -38,7 +38,7 @@ cd qmk_firmware
 git checkout -b your_branch_name
 ```
 
-In my case, I have a branch for each project I'm working on, and also a branch called merlin_keymaps, which keeps all my keymaps.
+In my case, I have a branch for each project I'm working on, and also a branch called `merlin_keymaps`, which keeps all my keymaps.
 
 **Please Note**
 Always make sure you are branching off of master
@@ -89,16 +89,22 @@ git pull upstream master
 
 which pulls from the master branch of the qmk_firmware and puts the changes in your branch. Make sure you commit and push after this. 
 
-**Please Note***
+**Please Note**
+
 You will have to sync ALL your branches. 
 
-#### Summary
-
-To update your fork from what you have checked in to Github do
+If you have already synced your `master` branch with a pull from your upstream remote, you can simply do a 
 ```
 git pull origin master
 ```
-To update your fork from the original qmk_firmware project do
+
+#### Summary
+
+To update your branch from what you have checked in to Github do
+```
+git pull origin master
+```
+To update your branch from the original qmk_firmware project do
 ```
 git pull upstream master
 ```
@@ -113,12 +119,12 @@ As long as you have commited and pushed all your changes in the specified branch
 git push origin your_branch_name
 ```
 
-the rest can be done on [qmk_firmware github webpage](https://github.com/qmk/qmk_firmware).
+the rest can be done on [qmk_firmware Github page](https://github.com/qmk/qmk_firmware).
 
-Click on the Pull Request Tab
-Press the green New Pull Request button
-Make sure the changes are going from your selected branch to qmk_firmware master branch
-Write a detailed pull request and click submit!
+1. Click on the Pull Request Tab
+2. Press the green New Pull Request button
+3. Make sure the changes are going from your selected branch to qmk_firmware master branch
+4. Write a detailed pull request and click submit!
 
 
 
