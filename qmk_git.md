@@ -64,7 +64,7 @@ Conversely, anything that is checked into the qmk_firmware repo will not be pres
 
 #### Configuring a remote
 
-To keep your fork synced up with qmk_firmware, do the following
+To keep your branch synced up with qmk_firmware, do the following
 
 ```
 git remote add upstream https://github.com/qmk/qmk_firmware.git
@@ -76,12 +76,12 @@ Verify that you now have a remote repo named upstream
 git remote -v
 origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
 origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
-upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
-upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+upstream  https://github.com/qmk/qmk_firmware.git (fetch)
+upstream  https://github.com/qmk/qmk_firmware.git (push)
 ```
 
 #### Syncing
-Everytime you want to sync your fork with qmk_firmware, you can issue a 
+Everytime you want to sync your branch with qmk_firmware, you can issue a 
 
 ```
 git pull upstream master
