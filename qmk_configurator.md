@@ -22,8 +22,11 @@ In the event that you can't find a layout that supports your keymap, for example
 
 Example:
 3 spots for spacebar: Fill them ALL with spacebar
+
 2 spots for backspace: Fill them BOTH with backspace
+
 2 spots for right shift: Fill them BOTH with right shift
+
 1 spot for left shift and 1 spot for iso support: Fill them both with left shift
 
 ## Saving Your Keymap for Future Edits
