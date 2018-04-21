@@ -5,7 +5,7 @@ qmk_setup aims to provide tools and information to assist in the understanding a
 my notes I've been using for reference to help people online. 
 
 ## Making Your Keymaps    
-[QMK Configurator](https://config.qmk.fm)   
+[QMK Configurator](qmk_configurator)   
 Coding - Coming Soon!   
 [Keycode Reference](https://docs.qmk.fm/keycodes)    
 
