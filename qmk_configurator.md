@@ -6,6 +6,8 @@ The [QMK Configurator](https://config.qmk.fm) is an online graphical user interf
 
 Click the drop down box and select the keyboard you want to create a keymap for. If your keyboard has several versions, make sure you select the correct one. 
 
+If your keyboard has been advertised to be powered by QMK but is not in the list, chances are a developer hasn't gotten to it yet. File an issue at [qmk_firmware](https://github.com/qmk/qmk_firmware/issues) requesting for support for that particular keyboard. There are also QMK powered keyboards that are in their manufacturer's own github accounts. Double check for that as well. 
+
 ## Selecting your keyboard layout
 
 Choose the layout that best represents the keymap you want to create. Some keyboards do not have enough layouts or correct layouts defined yet. They will be supported in the future. 
@@ -50,3 +52,7 @@ Choose your operating system to follow the guide:
 
 [Windows](windows_flashing.md)    
 [macOS](macos_flashing.md)   
+
+## Problems and Bugs
+
+We are always accepting customer requests and bug reports. Please file them at [qmk_configurator](https://github.com/qmk/qmk_configurator/issues)
