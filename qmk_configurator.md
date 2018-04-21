@@ -10,9 +10,9 @@ Click the drop down box and select the keyboard you want to create a keymap for.
 
 Choose the layout that best represents the keymap you want to create. Some keyboards do not have enough layouts or correct layouts defined yet. They will be supported in the future. 
 
-## Keyboard Name
+## Keymap Name
 
-Call this keyboard what you want. 
+Call this keymap what you want. 
 
 ## Creating Your Keymap
 
