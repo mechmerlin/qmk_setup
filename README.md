@@ -1,7 +1,8 @@
 # qmk_setup
 
 ## Introduction
-qmk_setup aims to provide tools and information to assist in the understanding and usage of QMK. These are primarily
+qmk_setup aims to provide tools and information to assist in the understanding and usage
+of the [QMK Firmware](https://github.com/qmk/qmk_firmware). These are primarily
 my notes I've been using for reference to help people online. 
 
 ## Making Your Keymaps    
@@ -11,7 +12,8 @@ Coding - Coming Soon!
 
 ## Flashing Your QMK Powered Keyboard    
 [Windows](windows_flashing.md)    
-[macOS](macos_flashing.md)    
+[macOS](macos_flashing.md) 
+Linux - Coming Soon!   
 
 ## Porting a Keyboard to QMK
 Coming Soon!
