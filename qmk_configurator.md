@@ -20,7 +20,8 @@ Keycode Entry is accomplished by drag and dropping or clicking on an empty spot 
 
 In the event that you can't find a layout that supports your keymap, for example three spots for spacebar, or two spots for backspace, or 2 spots for shift etc etc, Fill them ALL up. 
 
-Example:
+### Example:
+
 3 spots for spacebar: Fill them ALL with spacebar
 
 2 spots for backspace: Fill them BOTH with backspace
