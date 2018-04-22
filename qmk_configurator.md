@@ -2,6 +2,9 @@
 
 The [QMK Configurator](https://config.qmk.fm) is an online graphical user interface that generates QMK Firmware hex files. It is still very much a work in progress, but is improving very quickly. Please follow these steps in order. 
 
+
+# Files from other tools such as KLE, or kbfirmware will not be compatible with QMK Configurator. Do not load them, do not import them. QMK Configurator is a DIFFERENT tool. 
+
 ## Selecting your keyboard
 
 Click the drop down box and select the keyboard you want to create a keymap for. If your keyboard has several versions, make sure you select the correct one. 
