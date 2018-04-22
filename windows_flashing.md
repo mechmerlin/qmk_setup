@@ -36,7 +36,7 @@ This guide is meant to help you get started with flashing compatible
 
 These are some common issues encountered. Try them in the following order. 
 
-1. If you're abe to flash, did you install the drivers? 
+1. If you're not able to flash, did you install the drivers? 
 
 2. If you're still unable to flash, double check that the microcontroller selected is indeed correct. When plugging in your keyboard, the tool will actually report what microcontroller it is seeing.
 
