@@ -15,6 +15,8 @@ If your keyboard has been advertised to be powered by QMK but is not in the list
 
 Choose the layout that best represents the keymap you want to create. Some keyboards do not have enough layouts or correct layouts defined yet. They will be supported in the future. 
 
+**Do not select layouts that have KC in the title.** 
+
 ## Keymap Name
 
 Call this keymap what you want. 
