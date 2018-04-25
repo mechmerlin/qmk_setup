@@ -10,6 +10,8 @@ This guide is meant to help you get started with flashing compatible
 
 ## Drivers
 
+#### If you have been struggling and have tried installing driver after driver from guides A, B, C, D....etc etc. I would suggest to uninstall them ALL before continuing. 
+
 1. Download the latest version of [qmk_driver_installer](https://github.com/qmk/qmk_driver_installer/releases). I suggest just getting the zip file. 
 
 2. Unzip the zip file and double click on .bat file named install_all_drivers.bat
