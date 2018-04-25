@@ -23,7 +23,7 @@ Call this keymap what you want.
 
 ## Creating Your Keymap
 
-Keycode Entry is accomplished by drag and dropping or clicking on an empty spot on the layout and selecting the keycode you desire. Hover your mouse over a key and a short blurb should tell you what that keycode does. For a more verbose description please see [Keycode Reference](https://docs.qmk.fm/keycodes)  
+Keycode Entry is accomplished by drag and dropping, clicking on an empty spot on the layout and selecting the keycode you desire, or just pressing the key on your keyboard. Hover your mouse over a key and a short blurb should tell you what that keycode does. For a more verbose description please see [Keycode Reference](https://docs.qmk.fm/keycodes)  
 
 In the event that you can't find a layout that supports your keymap, for example three spots for spacebar, or two spots for backspace, or 2 spots for shift etc etc, Fill them ALL up. 
 
