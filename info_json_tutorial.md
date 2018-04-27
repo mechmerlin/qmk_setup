@@ -9,7 +9,7 @@ In order to create an appropriate info.json file, you will need
 
 1. An appropriate LAYOUT macro defined for the keyboard you wish to support
 2. [keyboard-layout-editor](http://www.keyboard-layout-editor.com/) (KLE)
-3. qmk.fm/converter
+3. https://qmk.fm/converter
 
 For this tutorial we will be using the meme as an example. 
 
@@ -58,7 +58,7 @@ You are free to adjust the size of the keys to make it look visibly pleasing.
 ## Step 2: Convert KLE Raw to info.json
 
 Click on the `Raw data` tab and copy all the text.    
-Paste it into qmk.fm/converter and press the `convert` button   
+Paste it into https://qmk.fm/converter and press the `convert` button   
 Copy and paste the contents of Output into a file called `info.json` in your keyboard's folder. 
 
 In the case of the meme, it goes into
