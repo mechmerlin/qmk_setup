@@ -79,3 +79,7 @@ In the `layouts` key of your info.json file, you should have several elements su
 ```
 
 Make sure the names of these elements match your .h file. For example LAYOUT_all here should match LAYOUT_all in `meme.h`
+
+## Optional
+
+Some keyboards have LAYOUTs that are confusing. Feel free to make one on your own, test it and follow Steps 1-3 again. Please note that on some keyboards, the spacebar might not always be K92, it could switch to the other ones that are marked KC_NO. 
