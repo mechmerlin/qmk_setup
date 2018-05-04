@@ -12,7 +12,7 @@ Coding - Coming Soon!
 
 ## Flashing Your QMK Powered Keyboard    
 [Windows](windows_flashing.md)    
-[macOS](macos_flashing.md) 
+[macOS](macos_flashing.md)   
 Linux - Coming Soon!   
 
 ## Porting a Keyboard to QMK
