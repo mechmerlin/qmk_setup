@@ -39,6 +39,8 @@ In the event that you can't find a layout that supports your keymap, for example
 
 1 spot for left shift and 1 spot for iso support: Fill them both with left shift
 
+5 spots, but only 4 keys: Guess and check or ask someone who has done it before. 
+
 ## Saving Your Keymap for Future Edits
 
 When you're satisfied with your keymap or just want to work on it later, press the `Export Keymap` button. It will save your keymap as the name you chose above appended with .json. 
