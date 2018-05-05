@@ -45,4 +45,6 @@ These are some common issues encountered. Try them in the following order.
 
 3. If you're still unable to flash, try to run the Toolbox as administrator by right clicking on the executable and pressing `Run as administrator`
 
-4. Your keyboard probably isn't supported. 
+4. If flashing on a pro-micro, check your anti-virus software to see if either QMKToolbox or avrdude has been blacklisted. Unblacklist it to get flashing. 
+
+5. Your keyboard probably isn't supported. 
