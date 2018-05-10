@@ -5,8 +5,11 @@ The info.json file is used by QMK Configurator to generate the visible layout. T
 If you're looking to generate keymaps refer to this [guide](https://github.com/mechmerlin/qmk_setup/blob/master/qmk_configurator.md)
 
 Definitions:    
-Layout: Physical description of the board. 1u keys go here, 2u keys go there, 6u keys go here etc. Think of a house having rooms. Those rooms don't change without significant remodeling. That is the layout of your house.      
+
+Layout: Physical description of the board. 1u keys go here, 2u keys go there, 6u keys go here etc. Think of a house having rooms. Those rooms don't change without significant remodeling. That is the layout of your house.
+
 Keymap: Description of what those keys do when they are pressed. Using the above example, this is what the each of those rooms are used for. Bedroom, study, playroom, etc etc.       
+
 JSON: A file format similar to .doc, .pdf, .txt. For example, drivers_license.pdf and teriyaki_recipe.pdf contain different information despite both being PDFs.     
 
 The info.json is different from the resulting QMK Configurator keymap.json. It
