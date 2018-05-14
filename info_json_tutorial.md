@@ -64,6 +64,10 @@ For example in LAYOUT_all, the row beginning with K00 has 16 elements in it. So 
 row in your KLE must also have 16 keys. If you look at the bottom row beginning with K80,
 it only has 10 elements so your bottom row in the KLE must also have 10 elements. 
 
+```
+K80, K90, K81,           K92,                     K85, K95, K86, K96, K87, K97 \
+```
+
 You are free to adjust the size of the keys to make it look visibly pleasing. 
 
 
