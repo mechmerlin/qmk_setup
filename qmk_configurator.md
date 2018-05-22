@@ -25,7 +25,15 @@ Call this keymap what you want.
 
 ## Creating Your Keymap
 
-Keycode Entry is accomplished by drag and dropping, clicking on an empty spot on the layout and selecting the keycode you desire, or just pressing the key on your keyboard. Hover your mouse over a key and a short blurb should tell you what that keycode does. For a more verbose description please see [Keycode Reference](https://docs.qmk.fm/keycodes)  
+Keycode Entry is accomplished in 3 ways.  
+1. Drag and dropping 
+2. Clicking on an empty spot on the layout and selecting the keycode you desire
+3. Clicking on an empty spot on the layout, pressing the key on your keyboard. 
+
+Hover your mouse over a key and a short blurb should tell you what that keycode does. For a more verbose description please see    
+
+[Basic Keycode Reference](https://docs.qmk.fm/#/keycodes_basic)    
+[Advanced Keycode Reference](https://docs.qmk.fm/#/feature_advanced_keycodes)    
 
 In the event that you can't find a layout that supports your keymap, for example three spots for spacebar, or two spots for backspace, or 2 spots for shift etc etc, Fill them ALL up. 
 
@@ -47,7 +55,7 @@ When you're satisfied with your keymap or just want to work on it later, press t
 
 You can then load this .json file in the future by pressing the `Import Keymap` button. 
 
-**CAUTION:** This is not the same type of .json file used for kbfirmware.com or any other tool. If you try to use this for those tools, or the .json from those tools with QMK Configurator, there is a chance your keyboard will explode. 
+**CAUTION:** This is not the same type of .json file used for kbfirmware.com or any other tool. If you try to use this for those tools, or the .json from those tools with QMK Configurator, there is a chance your keyboard will **explode**. 
 
 ## Generating your .hex file
 
@@ -76,7 +84,10 @@ If you're referring to having three spots for space bar, the best course of acti
 
 #### What is the keycode for.......
 
-Please see [Keycode Reference](https://docs.qmk.fm/keycodes)  
+Please see
+
+[Basic Keycode Reference](https://docs.qmk.fm/#/keycodes_basic)    
+[Advanced Keycode Reference](https://docs.qmk.fm/#/feature_advanced_keycodes)    
 
 #### It won't compile
 
