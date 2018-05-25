@@ -14,6 +14,9 @@ This guide is meant to help you get started with flashing compatible
 2. Open up the terminal app located in Applications/Utilities.
 3. Run the qmksetup_macos.sh script by typing the following in
 
+Via terminal, navigate to where you downloaded the script. I suggest putting the script in root so
+you can type the following: 
+
 ```
 ./qmksetup_macos.sh
 ```
@@ -39,7 +42,7 @@ This guide is meant to help you get started with flashing compatible
 
 2. Put your keyboard into reset.
 
-3. Erase the current firmware installed on your keyboard by typing:
+3. If your keyboard uses atmel-dfu, erase the current firmware installed on your keyboard by typing:
 ```
 dfu-programmer atmega32u4 erase --force
 ```
