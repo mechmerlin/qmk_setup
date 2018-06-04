@@ -7,7 +7,7 @@ This guide is meant to help you get started with flashing compatible
 1. You are on a Windows computer.
 2. You have a stable internet connection.
 3. You currently have a .hex file for your keyboard.
-4. You know how to put your keyboard into reset. Ask the manufacturer if you don't. 
+4. You know how to put your keyboard into reset. Ask the manufacturer if you don't. Sometimes this procedure is included in the readme. 
 
 ## Drivers
 
