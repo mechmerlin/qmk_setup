@@ -11,7 +11,7 @@ This guide is meant to help you get started with flashing compatible
 
 ## Drivers
 
-#### If you have been struggling and have tried installing driver after driver from guides A, B, C, D....etc etc. I would suggest to uninstall them ALL before continuing. 
+#### If you have been struggling and have tried installing driver after driver from guides A, B, C, D....etc etc. I would suggest to uninstall them ALL before continuing. The different combinations of drivers are known to block flashing of boards. 
 
 1. Download the latest version of [qmk_driver_installer](https://github.com/qmk/qmk_driver_installer/releases). I suggest just getting the zip file. 
 
