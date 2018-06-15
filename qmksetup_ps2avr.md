@@ -1,6 +1,8 @@
 # QMK on your PS2AVR(GB) boards
 
-Unlike keyboards that can be natively powered by QMK, ps2avr type boards not only use a different microcontroller, but also a slightly different way of flashing
+Unlike keyboards that can be natively powered by QMK, ps2avr type boards not only use a different microcontroller, but also a slightly different way of flashing.
+
+Please be advised that while QMK is possible on ps2avr(gb) boards, problems such as overheating, random shutdowns, have been reported. 
 
 ## Requirements before starting
 
