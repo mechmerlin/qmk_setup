@@ -63,7 +63,7 @@ You can then load this .json file in the future by pressing the `Import Keymap` 
 
 Press the green `Compile` button.
 
-When the compilation is done, you will be able to press the green `Download .hex` button. 
+When the compilation is done, you will be able to press the green `Download Firmware` button. 
 
 ## Flashing Your Keyboard
 
