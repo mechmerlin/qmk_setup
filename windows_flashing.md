@@ -27,7 +27,7 @@ This guide is meant to help you get started with flashing compatible
 
 2. Using QMK Toolbox, open your hex file.
 
-3. Put your keyboard into reset. You should get a confirmation message on QMK Toolbox.
+3. Put your keyboard into reset. You should get a confirmation message on QMK Toolbox. If you don't, double check that you have the reset procedure correct. 
 
 4. Ensure that the Microcontroller matches what is on your board. For example, a dz60, should have atmega32u4. 
 
