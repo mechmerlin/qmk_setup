@@ -1,7 +1,7 @@
 # Flashing .hex files on a macOS Environment
 
 This guide is meant to help you get started with flashing compatible
-.hex files to your QMK powered keyboard. 
+.hex files to your QMK powered keyboard. You have your choice of either flashing with the command line or with a tool called QMK Toolbox. 
 
 ## Requirements before starting
 1. You are on a computer running macOS.
