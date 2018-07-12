@@ -11,7 +11,11 @@ The QMK Configurator works best with Chrome/Firefox.
 
 ## Selecting your keyboard
 
-Click the drop down box and select the keyboard you want to create a keymap for. If your keyboard has several versions, make sure you select the correct one. 
+Click the drop down box and select the keyboard you want to create a keymap for. **If your keyboard has several versions, make sure you select the correct one. 
+
+I'll say that again because its import
+
+## MAKE SURE YOU SELECT THE RIGHT VERSION!
 
 If your keyboard has been advertised to be powered by QMK but is not in the list, chances are a developer hasn't gotten to it yet. File an issue at [qmk_firmware](https://github.com/qmk/qmk_firmware/issues) requesting for support for that particular keyboard. There are also QMK powered keyboards that are in their manufacturer's own github accounts. Double check for that as well. 
 
