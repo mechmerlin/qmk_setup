@@ -41,6 +41,12 @@ These are some common issues encountered. Try them in the following order.
 
 1. If you're not able to flash, did you install the drivers? 
 
+To update your driver (Windows): Navigate to your Device Manager > press reset button on bottom of keyboard PCB > locate the 'Other Device' that has a '!' > select on Other device > then right click on ATmega32U4 > select Update Driver Software > click 'Browse my computer for driver'.
+
+Once again, download the whole repo for QMK Toolbox, this will ensure you get the correct drivers. If you see 'ATm32U4DFU' in QMK Toolbox this means you have the incorrect driver and you need to update the driver.
+
+The location for this driver is in the qmk_toolbox_installer folder you downloaded for QMK Toolbox. The driver should be in C:/.../qmk toolbox/windows/qmktoolbox/dfu-prog-usb/atmel_usb_dfu.inf where ...is your local folder location you downloaded QMK Toolbox to.
+
 2. If you're still unable to flash, double check that the microcontroller selected is indeed correct. When plugging in your keyboard, the tool will actually report what microcontroller it is seeing.
 
 3. If you're still unable to flash, try to run the Toolbox as administrator by right clicking on the executable and pressing `Run as administrator`
