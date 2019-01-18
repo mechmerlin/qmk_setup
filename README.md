@@ -8,7 +8,7 @@ my notes I've been using for reference to help people online.
 ## Making Your Keymaps    
 [QMK Configurator](qmk_configurator.md)   
 Coding - Coming Soon!   
-[Keycode Reference](https://docs.qmk.fm/keycodes)    
+[Keycode Reference](https://docs.qmk.fm/#/keycodes)    
 
 ## Flashing Your QMK Powered Keyboard    
 [Windows](windows_flashing.md)    
