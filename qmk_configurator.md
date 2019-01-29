@@ -1,104 +1,16 @@
-# QMK Configurator
+# QMK Configurator (DEPRECATED)
 
-The [QMK Configurator](https://config.qmk.fm) is an online graphical user interface that generates QMK Firmware hex files. It is still very much a work in progress, but is improving very quickly. Please follow these steps in order. 
+## Quick Links
+
+The [QMK Configurator](https://config.qmk.fm) is an online graphical user interface that generates QMK firmware files. 
 
 Watch the [Video Tutorial](https://youtu.be/7RH-1pAbjvw)
 
-The QMK Configurator works best with Chrome/Firefox. 
+## Latest Documentation
+This document was contributed officially into QMK on 01/28/2019 via [Pull Request #4986](https://github.com/qmk/qmk_firmware/pull/4986).
 
+Please refer to [QMK Configurator Docs](https://docs.qmk.fm/#/newbs_building_firmware_configurator?id=problems-and-bugs) to access the newest documentation. 
 
-# Files from other tools such as KLE, or kbfirmware will not be compatible with QMK Configurator. Do not load them, do not import them. QMK Configurator is a DIFFERENT tool. 
+This is preserved in place as several discord channels have pinned this. I will completely remove this when I have verified all pins have been removed. 
 
-## Selecting your keyboard
-
-Click the drop down box and select the keyboard you want to create a keymap for. **If your keyboard has several versions, make sure you select the correct one.** 
-
-I'll say that again because its important
-
-## MAKE SURE YOU SELECT THE RIGHT VERSION!
-
-If your keyboard has been advertised to be powered by QMK but is not in the list, chances are a developer hasn't gotten to it yet. File an issue at [qmk_firmware](https://github.com/qmk/qmk_firmware/issues) requesting for support for that particular keyboard. There are also QMK powered keyboards that are in their manufacturer's own github accounts. Double check for that as well. 
-
-## Selecting your keyboard layout
-
-Choose the layout that best represents the keymap you want to create. Some keyboards do not have enough layouts or correct layouts defined yet. They will be supported in the future. 
-
-**Do not select layouts that have KC in the title.** 
-
-## Keymap Name
-
-Call this keymap what you want. 
-
-## Creating Your Keymap
-
-Keycode Entry is accomplished in 3 ways.  
-1. Drag and dropping 
-2. Clicking on an empty spot on the layout and selecting the keycode you desire
-3. Clicking on an empty spot on the layout, pressing the key on your keyboard. 
-
-Hover your mouse over a key and a short blurb should tell you what that keycode does. For a more verbose description please see    
-
-[Basic Keycode Reference](https://docs.qmk.fm/#/keycodes_basic)    
-[Advanced Keycode Reference](https://docs.qmk.fm/#/feature_advanced_keycodes)    
-
-In the event that you can't find a layout that supports your keymap, for example three spots for spacebar, or two spots for backspace, or 2 spots for shift etc etc, Fill them ALL up. 
-
-### Example:
-
-3 spots for spacebar: Fill them ALL with spacebar
-
-2 spots for backspace: Fill them BOTH with backspace
-
-2 spots for right shift: Fill them BOTH with right shift
-
-1 spot for left shift and 1 spot for iso support: Fill them both with left shift
-
-5 spots, but only 4 keys: Guess and check or ask someone who has done it before. 
-
-## Saving Your Keymap for Future Edits
-
-When you're satisfied with your keymap or just want to work on it later, press the `Export Keymap` button. It will save your keymap as the name you chose above appended with .json. 
-
-You can then load this .json file in the future by pressing the `Import Keymap` button. 
-
-**CAUTION:** This is not the same type of .json file used for kbfirmware.com or any other tool. If you try to use this for those tools, or the .json from those tools with QMK Configurator, there is a chance your keyboard will **explode**. 
-
-## Generating your .hex file
-
-Press the green `Compile` button.
-
-When the compilation is done, you will be able to press the green `Download Firmware` button. 
-
-## Flashing Your Keyboard
-
-Choose your operating system to follow the guide:
-
-[Windows](windows_flashing.md)    
-[macOS](macos_flashing.md)  
-
-## Troubleshooting
-
-#### My .json file is not working
-
-If the .json file was generated with QMK Configurator, congratulations you have stumbled upon a bug. File an issue at [qmk_configurator](https://github.com/qmk/qmk_configurator/issues)
-
-If not....how did you miss my big bold message at the top saying not to use other .json files? 
-
-#### There are extra spaces in my layout? What do I do? 
-
-If you're referring to having three spots for space bar, the best course of action is to just fill them all with space bar. The same can be done for backspace and shifts
-
-#### What is the keycode for.......
-
-Please see
-
-[Basic Keycode Reference](https://docs.qmk.fm/#/keycodes_basic)    
-[Advanced Keycode Reference](https://docs.qmk.fm/#/feature_advanced_keycodes)    
-
-#### It won't compile
-
-Please double check the other layers of your keymap to make sure there are no random keys present. 
-
-## Problems and Bugs
-
-We are always accepting customer requests and bug reports. Please file them at [qmk_configurator](https://github.com/qmk/qmk_configurator/issues)
+The original document is preserved [here](qmk_configurator_original.md).
