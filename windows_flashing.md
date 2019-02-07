@@ -13,11 +13,11 @@ This guide is meant to help you get started with flashing compatible
 
 #### If you have been struggling and have tried installing driver after driver from guides A, B, C, D....etc etc. I would suggest to uninstall them ALL before continuing. The different combinations of drivers are known to block flashing of boards. 
 
-1. Download the latest version of [qmk_driver_installer](https://github.com/qmk/qmk_driver_installer/releases). I suggest just getting the zip file. 
+1. Download [Zadig](https://zadig.akeo.ie/).
 
-2. Unzip the zip file and double click on .bat file named install_all_drivers.bat
+2. Select the `libusb-win32 (v 1.2.6.0)` driver.
 
-3. Give it some time to download and install all necessary drivers.
+3. Press `Install WCID Driver` and let it do its job. 
 
 ## QMK Toolbox
 
