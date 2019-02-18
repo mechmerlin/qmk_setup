@@ -15,9 +15,11 @@ This guide is meant to help you get started with flashing compatible
 
 1. Download [Zadig](https://zadig.akeo.ie/).
 
-2. Select the `libusb-win32 (v 1.2.6.0)` driver.
+2. Open Zadig
 
-3. Press `Install WCID Driver` and let it do its job. 
+3. Select the `libusb-win32 (v 1.2.6.0)` driver from the drop down menu.
+
+4. Press `Install WCID Driver` and let it do its job. 
 
 ## QMK Toolbox
 
