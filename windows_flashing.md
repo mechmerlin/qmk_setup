@@ -1,4 +1,4 @@
-# Flashing .hex files on a Windows Environment
+# Flashing `.hex` files on a Windows Environment
 
 This guide is meant to help you get started with flashing compatible
 .hex files to your QMK powered keyboard. 
@@ -6,7 +6,7 @@ This guide is meant to help you get started with flashing compatible
 ## Requirements before starting
 1. You are on a Windows computer.
 2. You have a stable internet connection.
-3. You currently have a .hex file for your keyboard.
+3. You currently have a `.hex` file for your keyboard.
 4. You know how to put your keyboard into reset. Ask the manufacturer if you don't. Sometimes this procedure is included in the readme. 
 
 ## Drivers
@@ -25,9 +25,9 @@ This guide is meant to help you get started with flashing compatible
 
 #### If you have not installed the drivers mentioned above, the following will not work. Go back and install the drivers first. 
 
-1. Download the latest version of [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases). I suggest just getting the qmk_toolbox.exe.
+1. Download the latest version of [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases). I suggest just getting the `qmk_toolbox.exe`.
 
-2. Using QMK Toolbox, open your hex file.
+2. Using QMK Toolbox, open your `.hex` file.
 
 3. Put your keyboard into reset. Please refer to your manufacturer as to what the process is. Some boards have a button you press on the back, some boards have a reset sequence such as holding Space + B. **This is NOT a RESET button you press on the QMK Toolbox**. You should get a confirmation message on QMK Toolbox. If you don't, double check that you have the reset procedure correct. 
 
@@ -37,7 +37,7 @@ This guide is meant to help you get started with flashing compatible
 
 6. You're done. 
 
-### QMK Toolbox Gotchas
+### QMK Toolbox Troubleshooting
 
 These are some common issues encountered. Try them in the following order. 
 
