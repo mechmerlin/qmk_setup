@@ -47,6 +47,7 @@ brew tap PX4/homebrew-px4
 brew update
 brew install avr-gcc
 brew install dfu-programmer
+brew install dfu-util
 brew install avrdude
 brew install gcc-arm-none-eabi
 
