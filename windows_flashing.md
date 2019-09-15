@@ -1,12 +1,17 @@
-# Flashing `.hex` files on a Windows Environment
+# Flashing `.hex/.bin` firmware files on a Windows Environment
 
 This guide is meant to help you get started with flashing compatible
-.hex files to your QMK powered keyboard. 
+firmware files to your QMK powered keyboard. 
+
+AVR powered keyboards use firmware files with the `.hex` extension, and ARM powered keyboards use firmware files with the `.bin` extension. 
+
+Example AVR keyboards: dz60, do60, 1up60hse, etc.  
+Example ARM keyboards: dz60rgb, dz65rgb, hs60v2, etc.  
 
 ## Requirements before starting
 1. You are on a Windows computer.
 2. You have a stable internet connection.
-3. You currently have a `.hex` file for your keyboard.
+3. You currently have a firmware file for your keyboard.
 4. You know how to put your keyboard into reset. Ask the manufacturer if you don't. Sometimes this procedure is included in the readme. 
 
 ## Drivers
@@ -17,7 +22,8 @@ This guide is meant to help you get started with flashing compatible
 
 2. Open Zadig
 
-3. Select the `libusb-win32 (v 1.2.6.0)` driver from the drop down menu.
+3. **AVR Keyboards:** Select the `libusb-win32 (v 1.2.6.0)` driver from the drop down menu.  
+   **ARM Keyboards:** Select the `libusbK (v3.0.7.0)` driver from the drop down menu.  
 
 4. Press `Install WCID Driver` and let it do its job. 
 
@@ -25,13 +31,15 @@ This guide is meant to help you get started with flashing compatible
 
 #### If you have not installed the drivers mentioned above, the following will not work. Go back and install the drivers first. 
 
-1. Download the latest version of [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases). I suggest just getting the `qmk_toolbox.exe`.
+1. Download the latest version of [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases). I suggest just getting the `qmk_toolbox.exe`. At the time of writing (09/15/19), the latest version is 0.0.12. 
 
-2. Using QMK Toolbox, open your `.hex` file.
+2. Using QMK Toolbox, select your firmware file.
 
-3. Put your keyboard into reset. Please refer to your manufacturer as to what the process is. Some boards have a button you press on the back, some boards have a reset sequence such as holding Space + B. **This is NOT a RESET button you press on the QMK Toolbox**. You should get a confirmation message on QMK Toolbox. If you don't, double check that you have the reset procedure correct. 
+**Please note: You can ignore the drop down in "Keyboard from qmk.fm"**. You only have to worry about this if you want to download a default firmware file from the QMK servers. 
 
-4. Ensure that the Microcontroller matches what is on your board. For example, a dz60, should have atmega32u4. 
+3. Put your keyboard into reset. Please refer to your manufacturer as to what the process is. Some boards have a button you press on the back, some boards have a switch, some boards have a reset sequence such as holding Space + B. **This is NOT a RESET button you press on the QMK Toolbox**. You should get a confirmation message on QMK Toolbox. If you don't, double check that you have the reset procedure correct. 
+
+4. Ensure that the Microcontroller matches what is on your board. For example, a dz60, should have atmega32u4. If you have an ARM based board such as a dz60rgb, you can ignore this drop down. 
 
 5. Press the Flash button and give it a moment.
 
