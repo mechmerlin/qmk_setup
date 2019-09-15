@@ -1,4 +1,4 @@
-# Flashing .hex files on a macOS Environment
+# Flashing firmware files on a macOS Environment
 
 This guide is meant to help you get started with flashing compatible
 .hex files to your QMK powered keyboard. You have your choice of either flashing with the command line or with a tool called QMK Toolbox. 
@@ -26,11 +26,11 @@ you can type the following:
 
 1. Download and install the latest version of [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases). I suggest just getting the qmk_toolbox.pkg. 
 
-2. Using QMK Toolbox, open your hex file.
+2. Using QMK Toolbox, select your firmware file.
 
 3. Put your keyboard into reset. You should get a confirmation message on QMK Toolbox.
 
-4. Ensure that the Microcontroller matches what is on your board. For example, a dz60, should have atmega32u4. 
+4. If your keyboard has an AVR microcontroller, ensure that the Microcontroller matches what is on your board. For example, a dz60, should have atmega32u4. 
 
 5. Press the Flash button and give it a moment.
 
@@ -50,7 +50,7 @@ dfu-programmer atmega32u4 erase --force
 4. Flash your new keymap by typing
 
 ```
-dfu-programmer atmega32u4 flash pathtoyourhexfile.hex
+dfu-programmer atmega32u4 flash pathtoyourfirmwarefile
 ```
 
 5. Take your keyboard out of reset by typing
