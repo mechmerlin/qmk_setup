@@ -1,6 +1,6 @@
 # info.json Tutorial
 
-The info.json file is used by QMK Configurator to generate the visible layout. This DOES NOT generate keymaps. Only the QMK Configurator generates keymap. 
+The `info.json` file is used by QMK Configurator to generate the visible layout. This DOES NOT generate keymaps. Only the QMK Configurator generates keymap. 
 
 If you're looking to generate keymaps refer to this [guide](https://github.com/mechmerlin/qmk_setup/blob/master/qmk_configurator.md)
 
@@ -10,14 +10,14 @@ If you're looking to generate keymaps refer to this [guide](https://github.com/m
 
 **Keymap:** Description of what those keys do when they are pressed. Using the above example, this is what the each of those rooms are used for. Bedroom, study, playroom, etc etc.       
 
-**JSON:** A file format similar to .doc, .pdf, .txt. For example, `drivers_license.pdf` and `teriyaki_recipe.pdf` contain different information despite both being PDFs.     
+**JSON:** A file format similar to `.doc`, `.pdf`, `.txt`. For example, `drivers_license.pdf` and `teriyaki_recipe.pdf` contain different information despite both being PDFs.     
 
 **LAYOUT macro:** The LAYOUT macro is an array detailing what Layout the keyboard supports. Refer to definition of Layout above. 
 
-The info.json is different from the resulting QMK Configurator keymap.json. It
+The `info.json` is different from the resulting QMK Configurator `keymap.json`. It
 is also different from the json files created by KLE. Do not use one in place of the other. Refer to definition of JSON as to why. 
 
-In order to create an appropriate info.json file, you will need
+In order to create an appropriate `info.json` file, you will need
 
 1. An appropriate LAYOUT macro defined for the keyboard you wish to support
 2. [keyboard-layout-editor](http://www.keyboard-layout-editor.com/) (KLE)
@@ -29,7 +29,7 @@ For this tutorial we will be using the [meme](https://github.com/qmk/qmk_firmwar
 
 In `meme.h`, you will see a macro called LAYOUT_all. 
 
-Pay attention to the top part of the LAYOUT macro. 
+Pay attention to the top part of the LAYOUT macro. This is also known as the physical layout. 
 
 ```
 #define LAYOUT_all( \
@@ -71,7 +71,7 @@ K80, K90, K81,           K92,                     K85, K95, K86, K96, K87, K97 \
 You are free to adjust the size of the keys to make it look visibly pleasing. 
 
 
-## Step 2: Convert KLE Raw to info.json
+## Step 2: Convert KLE Raw to `info.json`
 
 Click on the `Raw data` tab and copy all the text.    
 Paste it into https://qmk.fm/converter and press the `convert` button   
