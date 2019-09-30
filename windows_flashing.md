@@ -23,9 +23,13 @@ Example ARM keyboards: dz60rgb, dz65rgb, hs60v2, etc.
 2. Open Zadig
 
 3. **AVR Keyboards:** Select the `libusb-win32 (v 1.2.6.0)` driver from the drop down menu.  
-   **ARM Keyboards:** Select the `libusbK (v3.0.7.0)` driver from the drop down menu.  
+   **ARM Keyboards:** Select the `libusbK (v3.0.7.0)` driver from the drop down menu. 
+   
+4. Open zadig -> options -> list all devices.  
 
-4. Press `Install WCID Driver` and let it do its job. 
+5. Select interface 0 or wherever your board is connected.    
+
+4. Press `Replace Driver` and let it do its job. 
 
 ## QMK Toolbox
 
