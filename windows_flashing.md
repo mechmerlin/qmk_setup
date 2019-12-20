@@ -18,6 +18,8 @@ Example ARM keyboards: dz60rgb, dz65rgb, hs60v2, etc.
 
 #### If you have been struggling and have tried installing driver after driver from guides A, B, C, D....etc etc. I would suggest to uninstall them ALL before continuing. The different combinations of drivers are known to block flashing of boards. 
 
+#### You only have to install drivers ONCE. Afterwards you can just proceed to using QMK Toolbox to flash your board. 
+
 1. Download [Zadig](https://zadig.akeo.ie/).
 
 2. Open Zadig
@@ -55,7 +57,7 @@ These are some common issues encountered. Try them in the following order.
 
 1. If you're not able to flash, did you install the drivers? If you see 'ATm32U4DFU' in QMK Toolbox this means you have the incorrect driver and you need to update the driver. If the method above did not work, try this.
 
-    Visit [qmk_toolbox drivers](https://github.com/qmk/qmk_toolbox/tree/master/windows/QMK%20Toolbox/dfu-prog-usb-1.2.2) and download the drivers for your system.  
+    Visit [qmk_toolbox drivers](https://github.com/qmk/qmk_toolbox/tree/master/windows/QMK%20Toolbox) and download the drivers for your system.  
     Navigate to your Device Manager.  
     Press reset button on bottom of keyboard PCB.  
     Locate the 'Other Device' that has a '!'  
