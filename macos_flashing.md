@@ -10,6 +10,8 @@ This guide is meant to help you get started with flashing compatible
 
 ## Dependencies
 
+These instructions are only needed if you want to use the command line to flash your board. If you would like to use QMK Toolbox, proceed to the next section. 
+
 1. Download the [qmksetup_macos.sh](qmksetup_macos.sh) script. 
 2. Open up the terminal app located in Applications/Utilities.
 3. Run the qmksetup_macos.sh script by typing the following in
