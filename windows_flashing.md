@@ -20,14 +20,14 @@ Example ARM keyboards: dz60rgb, dz65rgb, hs60v2, etc.
 
 #### You only have to install drivers ONCE. Afterwards you can just proceed to using QMK Toolbox to flash your board. 
 
-1. Download [Zadig](https://zadig.akeo.ie/).
+1. Download [Zadig](https://zadig.akeo.ie/). Zadig is a tool used to install drivers to your computer. It does not flash your keyboard nor does it create keymaps. 
 
-2. Open Zadig
+2. Open Zadig.
 
 3. **AVR Keyboards:** Select the `libusb-win32 (v 1.2.6.0)` driver from the drop down menu.  
    **ARM Keyboards:** Select the `libusbK (v3.0.7.0)` driver from the drop down menu. 
    
-4. Open zadig -> options -> list all devices.  
+4. In the tool bar, click on zadig -> options -> list all devices.  
 
 5. Select interface 0 or wherever your board is connected.    
 
